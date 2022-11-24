@@ -52,17 +52,19 @@ ul {
   height: auto;
 }
 
+
+
 /* ----Header------- */
 .header {
   border-bottom: 1px solid #ececec;
 }
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
 }
 
-.logo {
+.header__logo {
   margin-right: 90px;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -76,17 +78,51 @@ ul {
   color: var(--accent-color);
 }
 
-.logo-header {
+.header__logo--main {
   color: var(--main-title-color);
 }
 
-.header-list {
+.header__group {
+  display: flex;
+  margin-left: auto;
+  gap: 50px;
+}
+
+.header__contacts {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: auto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header__group .header__contacts:hover,
+.header__group .header__contacts:focus {
+  color: var(--accent-color);
+}
+
+.header__envelope {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.header__phone {
+  fill: currentColor;
+}
+
+.nav__list {
   display: flex;
   align-items: center;
   gap: 50px;
 }
 
-.header-nav-link {
+.nav__link {
   position: relative;
   display: block;
   padding-top: 32px;
@@ -100,6 +136,11 @@ ul {
   color: var(--main-title-color);
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav .nav__link:hover,
+.nav .nav__link:focus {
+  color: var(--accent-color);
 }
 
 .current::after {
@@ -116,51 +157,6 @@ ul {
   opacity: 1;
 
   transition: opacity var(--anim-stand);
-}
-
-/* .header-nav-link:hover::after,
-.header-nav-link:focus::after {
-  opacity: 1;
-
-} */
-
-.header-nav .header-nav-link:hover,
-.header-nav .header-nav-link:focus {
-  color: var(--accent-color);
-}
-
-.header-group {
-  display: flex;
-  margin-left: auto;
-  gap: 50px;
-}
-
-.header-contacts {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding-left: auto;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--brand-color);
-
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-group .header-contacts:hover,
-.header-group .header-contacts:focus {
-  color: var(--accent-color);
-}
-
-.envelope-icon {
-  margin-right: 10px;
-  fill: currentColor;
-}
-
-.phone-icon {
-  fill: currentColor;
 }
 
 /* ----Header------- */
