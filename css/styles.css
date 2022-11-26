@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --brand-color: #757575;
   --main-title-color: #212121;
   --accent-color: #2196f3;
@@ -6,14 +6,14 @@
   --icons-color: #afb1b8;
   --indent: 30px;
   --anim-stand: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-body {
+/* body {
   background-color: var(--third-color);
   font-family: "Roboto", sans-serif;
-}
+} */
 
-.list {
+/* .list {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -30,7 +30,7 @@ p,
 ul {
   margin-top: 0;
   margin-bottom: 0;
-}
+} */
 
 .container {
   width: 1200px;
@@ -46,16 +46,16 @@ ul {
   padding-bottom: 94px;
 }
 
-.img {
+/* .img {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} */
 
 
 
 /* ----Header------- */
-.header {
+/* .header {
   border-bottom: 1px solid #ececec;
 }
 
@@ -114,7 +114,7 @@ ul {
 
 .header__phone {
   fill: currentColor;
-}
+} */
 
 .nav__list {
   display: flex;
