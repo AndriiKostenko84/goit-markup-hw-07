@@ -1,3 +1,7 @@
+.filter-section {
+    @include section;
+}
+
 .filter-item {
     display: flex;
     flex-wrap: wrap;
@@ -71,6 +75,3 @@
     color: var(--brand-color);
 }
 
-.filter-section {
-    padding-bottom: 94px;
-}

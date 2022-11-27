@@ -1,11 +1,11 @@
 .team {
+    @include section;
+
+    display: flex;
+    gap: var(--indent);
     background-color: #f5f4fa;
 }
 
-.team {
-    display: flex;
-    gap: var(--indent);
-}
 
 .team__photo {
     background-color: var(--third-color);

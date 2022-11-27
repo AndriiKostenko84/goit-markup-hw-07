@@ -184,6 +184,8 @@ ul {
 }
 
 .hero {
+  padding-top: 94px;
+  padding-bottom: 94px;
   width: 1600px;
   height: 600px;
   margin-left: auto;
@@ -195,7 +197,6 @@ ul {
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  /* background-size: cover; */
 }
 
 .hero-title {
@@ -294,6 +295,8 @@ ul {
 }
 
 .work-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
   padding-top: 0;
 }
 
@@ -332,14 +335,13 @@ ul {
 }
 
 .team {
-  background-color: #f5f4fa;
-}
-
-.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: var(--indent);
+  background-color: #f5f4fa;
 }
 
 .team__photo {
@@ -414,6 +416,8 @@ ul {
 }
 
 .clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -454,6 +458,8 @@ ul {
 }
 
 .footer {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -711,6 +717,11 @@ ul {
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+.filter-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .filter-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -785,10 +796,6 @@ ul {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--brand-color);
-}
-
-.filter-section {
-  padding-bottom: 94px;
 }
 
 .backdrop {
