@@ -1,5 +1,6 @@
 // utlis styles
 @import './utils/variables';
+@import './utils/visually-hidden';
 
 // base styles
 @import './base/base';
@@ -8,3 +9,5 @@
 // components styles
 @import './components/header';
 @import './components/nav';
+@import './components/hero';
+@import './components/features';
