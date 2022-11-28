@@ -1,6 +1,11 @@
+
+.clients-section {
+@include section;
+
+}
+
 .clients {
-    @include section;
-    
+        
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,12 +28,13 @@
         &:hover,
         &:focus {
     border-color: var(--accent-color);
+
+    .clients__list &:hover,
+    .clients__list &:focus {
+        fill: var(--accent-color);
+    }
 }
 }
 
 
 
-.clients__list .clients__link:hover,
-.clients__list .clients__link:focus {
-    fill: var(--accent-color);
-}

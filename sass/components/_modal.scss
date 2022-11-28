@@ -54,11 +54,13 @@
 .modal-icon {
     fill: #000000;
     transition: fill var(--anim-stand);
-}
 
-.modal-icon:hover {
+    &:hover {
     fill: var(--accent-color);
 }
+}
+
+
 
 .modal-title {
     display: block;
@@ -105,9 +107,7 @@
     margin-bottom: 10px;
 }
 
-.modal-form-field:focus {
-    outline-color: var(--accent-color);
-}
+
 
 .modal-form-icon {
     position: absolute;
@@ -118,9 +118,6 @@
     transition: fill var(--anim-stand);
 }
 
-.modal-form-field:focus+.modal-form-icon {
-    fill: var(--accent-color);
-}
 
 .modal-form-field {
     width: 100%;
@@ -134,6 +131,15 @@
     outline-offset: -1px;
 
     transition: outline var(--anim-stand);
+
+    &:focus {
+            outline-color: var(--accent-color);
+        }
+
+    &:focus+.modal-form-icon {
+                    fill: var(--accent-color);
+                }
+
 }
 
 .modal-form-comments {
@@ -150,20 +156,23 @@
     resize: none;
     transition: outline var(--anim-stand);
     color: #000000;
+
+    &:focus {
+            outline-color: var(--accent-color);
+        }
+    
+       &::placeholder {
+    
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 1.16;
+    
+            color: rgba(117, 117, 117, 0.5);
+        }
+
 }
 
-.modal-form-comments:focus {
-    outline-color: var(--accent-color);
-}
 
-.modal-form-comments::placeholder {
-
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 1.16;
-
-    color: rgba(117, 117, 117, 0.5);
-}
 
 .modal-form-agreement {
     display: flex;
